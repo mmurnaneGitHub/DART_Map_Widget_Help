@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<TITLE>Tacoma DART Map Help</TITLE>
+  <link rel="shortcut icon" href="images/shortcut.ico" />
+    <style>
+      html, body {
+          font-family: helvetica,Verdana,arial,sans-serif;
+      }
+      a {
+          color: #0066CC;
+          text-decoration: none;
+      }
+      a.header {
+          color: yellow;
+          text-decoration: none;
+      }
+      video.one {
+          border-style: solid;
+          border-width: 1px;
+      }
+      .panel-title {
+          color: white;
+          /*cursor: pointer;*/
+          background-color: #485566;
+          box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+          position: relative;
+          font-weight: bold;
+          margin-top: 0 !important;
+          position: fixed;
+          top: 0;
+          z-index: 10000;
+          width:99%;
+      }
+    </style>
+</HEAD>
+<BODY>
+
+      <div> <span id='TOP'>&nbsp;</span>
+      <div style="width: 100%; height: 35px;">
+       <div class="panel-title" style="line-height: 35px;"><img src="images/logo.jpeg" style="height: 30px; margin: 5px; vertical-align: middle;">&nbsp; Tacoma DART Map Help  <span style="float: right;"><a class="header" href="#TOP">Back to Top &nbsp;</a></span></div>
+      </div>
+       <b>DART</b> (Development Assistance & Review Team) <b>Map</b><br>
+       <p>Having problems with the map? Fix most problems by clearing the cache history using the browser menu or the keys <b>Ctrl F5</b></p>
+       
+       Having problems playing videos? If so, please try this page in Chrome or FireFox.
+      
+       <ul>
+        <li><a href="#AddCSV">Add CSV File</a></li>
+        <li><a href="#AddData">Add Data List</a></li>
+        <li><a href="#AddESRI">Add ESRI Data</a></li>
+        <li><a href="#BasemapGallery">Basemap Gallery</a></li>
+        <li><a href="#Default">Default extent</a></li>
+        <li><a href="#Draw">Draw</a></li>
+        <li><a href="#Favorites">Favorites</a></li>
+        <li><a href="#Find">Find my location</a></li>
+        <li><a href="#GetCoordinates">Get coordinates</a></li>
+        <li><a href="#Identify">Identify</a></li>
+        <li><a href="#LayerList">Layer List</a></li>
+        <li><a href="#Legend">Legend</a></li>
+        <li><a href="#MAPNAVIGATION">Map Navigation</a></li>
+        <li><a href="#Measure">Measure</a></li>
+        <li><a href="#OpenAttributeTable">Open Attribute Table</a></li>
+        <li><a href="#Print">Print</a></li>
+        <li><a href="#QUESTIONS">Questions & Comments</a></li>
+        <li><a href="#Search">Search</a></li>
+        <li><a href="#StreetView">Street View</a></li>
+       </ul>
+
+<a href="http://geobase-dbnewer/website/DART/StaffMap/" target="_blank">Link to Staff DART Map </a><br>&nbsp;<br>
+<a href="http://tacomapermits.org/dart-map" target="_blank">Link to Public DART Map </a>
+       
+      </div>
+      
+      <p id="Identify">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img id="img_1450301434048" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPwSURBVEhL3ZX/U5RVFMb7s/Y8t3YXsh8yUNKcMhEW2dUWEUdEg0RLwWaQ1bLU0WbKmbbGmUrAtMEBWkOCAgVGXZVvAhmwX4DV0aYyFui5yyu7++5CTI2/9M4zO+/cvfdzz3vuuc95zmLBM9L/Dy0Cuw1rs+F0oKwElXtxoBz79qC0GI5cZK2G9QXzkkQtiSZ0XQ52FsnxGrl0Tq614M7P6L8Gfwd+akLd5/BUS5FL1mbJUhukR2fYUZAnJ2qls1mmBjATwNykiobVTFj/8v3JuAreRetF8VTJptfFZjUTqDRopWSnW5rOg9C5ScxPqflJNRvC9ADGb+nfaAgc4TgHJ26j3ivOfBGLJEIoMzozQ3bvkI5GRIZUNKShCxrukZMe/dfJWhnuMfajZgIMXzWfh6tAbLYkVBI6wy6uAovvgubOJnCp9sso3oZVL6J4K9obxRgPa80EVahPNXiR+0ZS3uNo1sOGdfLJh5bIED85iUvduIqDFcjdiPcqcONqEpovpDMztVWyJktzzOhMOytMeq6Izm8ClJoLq+lBtNSJ9wzPQCKD5gnUbBhXvoXbJVarkfQ4en0OznwgD+7FlsViMdYE8XgUgTsY7MKtNgxdx+9jKWjOn1ITfjlySF55OQXtdqG5XqJBJHIZ76NR+C5I7SEp2yFFTvFUY6RXgxbnLOrPMXx9VvI3paDf2Y2bbeZsEP3bffT+IIf3Cz/rpVV4e5cMdGF+Oj7HEEs+hNZLKHEbwDi6ah9GEqpqUTzSh6No+FI2b+TVEN74/i6VBs04JtHbivLSFPT7B/DrzTRoPfJA8VpuY+Uui56fgr8dlXtS0EtFrRVR3T64C8Vu+1dRV6TLtaGVoI1cS4k7tUKcaK4zV4ihlUXNCvnqrOS9ma6uTx+Th0Pmutb6R3Ssrsf9OHIwXV1nZujb2O1LyUnsGK9/L29t0cdIh+rvBDdLmhOzRn0bnbSRFDSfDeuFF9LkIfSHyLBq+EIX3/OK/iX0r8f3k/xrwUM8VWBn4GNGU+wALof4GjD91FH1lfmFVwbHayxb8iRnjTbPTz+We93qyUQsDzHnC/ap+mWcb0H069Lt0t5o0BnaoxHdTT47of2afeeUR7ynWUv4YywWb0A7KvuG08GTSEKZ0RS7DAuo6Zt4l2FVRYOKxfNUOrPk0u2YhzqvFOZxoZGHRaVB03CZmcJ8OXVUulp0b/wrIMwMW6KhMHsj2BvbvpNjh4V5WGlvXJDdjtdexa5i+ahGLp6Trmbc7kBfJ/w/ouMyO7ocrZbtW8HsW9NxqSXRFB+2tJxsYR7pqPv3yrvlUlmm93PkSvZqHexiT0nVcuj/qGeGtuBveTCHonyD3P4AAAAASUVORK5CYII=">
+       <b>Identify&nbsp;</b>-&nbsp;Identify map layer details.&nbsp;</font></p></font>
+        <p>Click anywhere on the map to query over thirty datasets with results appearing in 'Identify Results' panel.  <font color="blue">Blue text without underlines</font> may be clicked to show data boundary.  <font color="blue"><u>Blue text with underlines</u></font> are links to additional information (<i>websites, documents</i>).</p>
+        <p>Items within the appropriate scale range will appear in the Identify Results popup regardless if they are turned on in the legend. If the desired items are not appearing in the popup, try zooming in first. </p>
+        <p>Additional information on any layer may be obtained by using the <b>Enable Pop-up</b> option in the <a href="#LayerList">Layer List</a>. </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/IdentifyMany.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+      <p id="BasemapGallery">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img id="img_1450111120740" src="data:image/gif;base64,R0lGODlhHgAeAPcAAFxmdLSaNIR+VPzCBKySPMSeNJSGTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAeAB4ABwiqAAEIHEiwoMGDCBMqXMiwocABECNKLCCQgMSLAwxilBig4saIGj8OoAjAgMiMBU92BGBRZMiPJFt+fLlxpUmXKUXGPEkT40qZG3teJHlzZk6YHnESJMA0QFMCBQgYECgAKtOoBJwScMi1q9elTMOKFUBVrNmtRzfuVDpQpcCiQdNiXGuUoFuWPOUOfZvXrsiffdvqTFpX8EebgR8OxstW8WHCcb9Knky5YUAAOw==">
+       &nbsp; <b>Basemap Gallery</b>&nbsp;- Change background map.&nbsp;</font></p>
+       <p>Select a background basemap that includes standard maps, aerial photography, muted, and more.  Individual layers within a basemap cannot be turned off.</p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/BaseMap.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-basemap.htm#ESRI_SECTION1_10275307C5DF45D986A6922A5BBBE67B" target="_blank">More Details</a>  </p>
+      
+      <p id="Legend">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img id="img_1450122900522" src="data:image/gif;base64,R0lGODlhHgAeAPQAAFxmdKSORIR+VPS6DHx6XGxyZLSWPNyuHPy+DMSiLPzCBOy2FGRqbJSGTJyGTNSqJMymJKSSRHRyZNSmJPS+DOSyHLyeNLSaNJyKRGxubAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAHgAeAAAI4AABCBxIsKDBgwgTKlzIsCHBAA4dClBAQCADCxEsYNSYcaNHiAYPKEggkIACBQhOKlig8iRLlwYFpFwgAAADAQ5w4sSgM6cDnzULWoBwAALIiEiTKl3KtGlSBzwxVHQqcIDKASUJaN3KtetUgi0XAJAAoazZs2aLljVoFWaBA3CJEo1btOiEogbDCpTAQEIBv34Z/P3blwGDmECpKl7MuDFTBgkOXDisOIHVARAZYNjMubNnDA7YqhQrYYDp06hTmzYI4eQAkgUCXMCQAMPs2rdt08ZgkAGEARAoOx5OnGpAADs=">
+       &nbsp; <b>Legend </b>- View&nbsp;visible map layers.</font></p>
+       <p>Shows all layers currently visible on the map. Layers must be turned on and the map within their visible scale range to appear in the legend.</p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Legend.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-legend.htm#ESRI_SECTION1_10275307C5DF45D986A6922A5BBBE67B" target="_blank">More Details</a>  </p>
+      
+      <p id="LayerList">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img id="img_1450380669587" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARpSURBVEhL3VZtTFNXGN6vizJEiIYZ6ZatjC0OE6Msi2MbwejGZGZWM1DBFkq/W/t9S7XjQ9pZZMBa0U5XQFOmpTTaMggiBQqYTZfMbDpMloXhTOZMZrYxp2PDj7LnejfTe4FCluzHljw/eu553uec87zveU8f2SEx/Uv4f0sLZHp7Rf7n3vSL3qftlfkYsgjTMbf0TpnBbBJ0HV77Q/fSyHBcZIi4cXophrvLijHFIkcjlnShxKg3iE84c64GU+8NLpgaJqaG42jcDS+42rHc68zRGUSgsQJpzCItJlUaubv29REfd6L/0WjRKBCYGmnnumtzVVrZDgnJEplBWqLa1WDlnfNk3OxNwvFn0aVBgHCzd/H51gyHlSfdpYrWYUgLFVrr29v7mzNvnF5yf4ilEgsgI6S/eTXCS5UaWo0hfaQmbyzAuReGrezg+QCBCP9g/0ZajSFtMQs63197rfOxu8ykzQMEEnu9MwXh5bv5tBrb6xKF1la+bahl1U89yRHKkzkXgN1xIA+2rNpXUSCUax9KzZBGAJl02LZ89uGKW6FFsdVBuHD8WaeNhxCWCFNaTJJkaV31VoVGgaFSI2+qzf3K/+TkwMLpC9wJL/z65BPN7+aiTEFGSN3erSQpLPy7ChnSh+xvjAVSsZGL3vQDtjfpXGsNEv+B7O+7UqhCPBsH4Mf1rhR/Y7ZeLwYBNKdt8xdt6bdCid+c4rjsebQaQ9ph23zJl/bHQPzUWeJ2aBFK215ZUCzXYSO41iF35nhP0viZxX1Na/aYBbgjArnOXlHwsWfl7b5EhEwOxI/40rAMrcb2Guc6Vr8Bi0+GKROQn5D7+co9RXyZHi3pnfJtyBV+o3vgY68788eeZNBgzugpjqd+g0JNOUljpjSKSaOx9OTBl7/7aBlKCtcBx+9wvWguKymSGtExzKaSDlcWSg1TqOVrncsCB18ykUIERuuwpaUqFVJRrNBhj1WWQuyLanhDVNKuBDn+xld8jdljQQ6G99ECu5eAsNdSKJDpSuRa0iiMvusMaZwx3LIaRwu6snB9YKVIqa6v3nLOsxIWI3t3wvFAZJgYf9A3Gqp5YpUamwA5cChrNPA4wqssRbQaQxqt7tvgcvRPJAR2tzlzSGMpnIWDh2vyLrWlTfQlTPQnfOlLO1KzER8xhZ22OdaNBjgIgXsIRznSagxpuj2FmjJxUvj4W1/C5fanjtW9qtVJoKI3iFob1re+t15vFGGo0UqO1r12uZ2L9aj21I32tMZWPkt7okFdRSvvvCfjl94kGPprKPHCiWdc+zZhmzulBtSGTK102TfhI6ZAQFP9tPU5qqmqZm+qUSCV6gdPQTv394F4xI+fSaLMtfJg/SeeDAxhPaZG/Nym/biQ83sKHgKlZjCIjjvWXQmmwsfIIPFzTzIlOkig5mCr15EDAmisQBqxpGnABEsZ/69nl3p0YCue3RcsZj5fGutdn1uaBnWnK/PxTwGdoKbqLQxZhOmYr/Q/wH9RWmL6Ey1G16Kn4xY/AAAAAElFTkSuQmCC">
+       &nbsp; <b>Layer List </b>-&nbsp;Toggle visibility&nbsp;&amp; transparency.</font></p>
+       <p><b><i>Looking for a layer?</i></b> Click the search button on upper right of panel and type a keyword to find specific layers.</p>
+       <p>Each layer and groups of layers have a checkbox for visibility. Layers that are gray are not visible at the current map scale. </p>
+       <p>Each item in the list is either a map layer or group of layers and has an expand/contract arrow followed by a checkbox for visibility, the layer or group name and then '<b>...</b>' to access a mini-menu.</p>
+       <p>The mini menu gives you control of the layer or group transparency and also lets you move it up or down in the list.  The order that items are listed is also the order they are drawn on the map.
+          If the item is a group of layers, clicking the expand arrow will open the group to show all of the map layers it contains.  Each layer will have its own expand arrow, visibility checkbox and mini-menu.   The layer's expand control reveals the layer's map symbology, while the mini-menu allows you to open up the layer's attributes in the "attribute table".  You cannot change the order of layers within the group. </p>
+        <p>From the mini-menu <b>Enable Pop-up / Remove Pop-up</b> enables or disables the pop-up for the feature layer. <i>To see the feature layer pop-up, close the 'Identify Results' window.</i> If a feature layer does not have a pop-up configured in the map, clicking Enable Pop-up shows all field values for the feature layer. </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/LayerList.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-layer-list.htm#ESRI_SECTION1_5704B09C89D34A2CAD402D47B7E81CD0" target="_blank">More Details</a>  </p>
+      
+      <p id="AddData">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAToSURBVEhLzVdbT1xVGF1nLjD3O8O93GmhhSK12oTQNNrERB5M+2D0SV/8Cb77Y/wJPvTBh6pJH4piY6AtFSpQLsPAMHfO3Mf17ZmhIudgY1PrSgjMmX3O2t9a6/v2Qfv8q6/reAuwNH//5/g/Ep92oM1axmAoDpul0rzyejAk9rXnMd6xh4g7DaetiIgrjYXJJXzx7n1+LjVXvR7OEtfrCLuy+HTmAb587wcsXF7CZ7MP8PHEr3DYyyjXbM2FDWhUJupJIezO8NOr5/Qssabh6NiLg5wfV7s38cnln3Fj4He47EXYtBrs1tNSi/TX+9cx070Bq6XWvPrPMJS6ULFjOxVCtWbhw+qwaLIfDUFXHh+OL6PTk+SqRnXVuhVrh13YSEbVJbHJZS8o5c6Ddera3DfNv0/gdxxjbmgVA8FDRdqCVDcQTCDiySKR9yJ57CaXhQp5kNQ9mIhu4+70IoYiccRzPuRKzuadZ3GmYrtWwdzwKmZ6N0h6Wjq90o6tdAS76SD0sl3ZIhByWXtz9CmuX1jHjQtruBjdU9+Z4Qxx0J3DxY5dSh3Gcqyf1biUakL0/bMrWNoawuKLEexlQs07GhBbtpJhhs+KfKmdinia3xjDYGTW2bMVemdRiZ0ffoK7Uw+RKrjpZSdujTzG41gfvv1lHrFsUN3hsJdQqthYdR2D4X0Uym1q46KEGQw81lRg6iSu8SdJ/wLOPHYYtnurM/A5dEx27aDfn8Ah02/jJhcmHqlK47kAEsc+bsKuNl+uWk/s+DsMwyVw23V0etMqIDvpEGWMsMUCWE90IujUMd2ziZ5AEtmCCyndjV1Knys5YKXX79PjwfABttNhbp7kBjDUQqNkvf4kblLmqCfNh4axmxXpNJXee6tXsbLfj8HgAT4YW0axalMJF7VkTYGfVfjO6SjjiuUGKiRexfN+9nVb47qChlzRoWQOM4hjkZjaZIoh3M8GVIXyW8JXrpHcBMbE9EUvNUlJftqnuhqd4r30b5TzfDgcV+SZgpPqBFGDVeXjPJh6LGTutiL9zKPE4LS8irgyuDP9EBndhbVEFw7zPpWFIXo6Ft5DhbP8BTNh5m0LpsQyEK71Pcet0ScqOBmGSCDFy9yW4ORKLhJ7lbRDrLqHVY/xVJM1fxx1sLfNyU2JJSTHHAQ7nFJyYNTrmurTYrUNm5zLx2VHc6Wmxqf4PtYRQ4DjtjFq69xcCKWqsc/mUhMyIlNMccCRx/zIU1XNAWdwI2z0mi8HNksVFcoq3qapymhkn7NeRx/7XDK6x40XFfnpfjYkFplDPJPbbXL+WlVb3ZlaxDvs3RQfvnbYrb6bpRXdviQOGELxVmZ4kcOjN3CkTrJub4qy19Rm9XI7n/yS3DB6To5AGfZXurbUGZsrOpHmkJCxKfK3IJUIkSqNkIn30/NL+G5lFrFMQJHfHl/BR5d+4waPuOJlY5tILQ7jpGWOKLccczKjH+0OKt8kOHF6L8H6a78K+X7WrzbVzbBFqFwvJ5y3Xcc6z+3WTDAkllaQt5A0K5RBL0R7PBBk8JcYrhZknhsdBPJ6dJDzqoD1UXYhjXoyeBbvQSzXOFhMu1xqbtTdgBmJGbK058f1Cdxfn1Sqic9HtKuFN/6fhJuvQRHOe8mC2NLa/KuX8C+RZ79vJjt5dodOKfbGic3wloiBPwF7d0YFgMaaQwAAAABJRU5ErkJggg==">
+       &nbsp; <b>Add Data List</b>-&nbsp;Add additional data to map.</font><font face="Arial"><b>&nbsp;</b></font></p>
+       <p>Additional data may be added and removed from the map using a checkbox menu. </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/AddData.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+      <p id="AddESRI">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAToSURBVEhLzVdbT1xVGF1nLjD3O8O93GmhhSK12oTQNNrERB5M+2D0SV/8Cb77Y/wJPvTBh6pJH4piY6AtFSpQLsPAMHfO3Mf17ZmhIudgY1PrSgjMmX3O2t9a6/v2Qfv8q6/reAuwNH//5/g/Ep92oM1axmAoDpul0rzyejAk9rXnMd6xh4g7DaetiIgrjYXJJXzx7n1+LjVXvR7OEtfrCLuy+HTmAb587wcsXF7CZ7MP8PHEr3DYyyjXbM2FDWhUJupJIezO8NOr5/Qssabh6NiLg5wfV7s38cnln3Fj4He47EXYtBrs1tNSi/TX+9cx070Bq6XWvPrPMJS6ULFjOxVCtWbhw+qwaLIfDUFXHh+OL6PTk+SqRnXVuhVrh13YSEbVJbHJZS8o5c6Ddera3DfNv0/gdxxjbmgVA8FDRdqCVDcQTCDiySKR9yJ57CaXhQp5kNQ9mIhu4+70IoYiccRzPuRKzuadZ3GmYrtWwdzwKmZ6N0h6Wjq90o6tdAS76SD0sl3ZIhByWXtz9CmuX1jHjQtruBjdU9+Z4Qxx0J3DxY5dSh3Gcqyf1biUakL0/bMrWNoawuKLEexlQs07GhBbtpJhhs+KfKmdinia3xjDYGTW2bMVemdRiZ0ffoK7Uw+RKrjpZSdujTzG41gfvv1lHrFsUN3hsJdQqthYdR2D4X0Uym1q46KEGQw81lRg6iSu8SdJ/wLOPHYYtnurM/A5dEx27aDfn8Ah02/jJhcmHqlK47kAEsc+bsKuNl+uWk/s+DsMwyVw23V0etMqIDvpEGWMsMUCWE90IujUMd2ziZ5AEtmCCyndjV1Knys5YKXX79PjwfABttNhbp7kBjDUQqNkvf4kblLmqCfNh4axmxXpNJXee6tXsbLfj8HgAT4YW0axalMJF7VkTYGfVfjO6SjjiuUGKiRexfN+9nVb47qChlzRoWQOM4hjkZjaZIoh3M8GVIXyW8JXrpHcBMbE9EUvNUlJftqnuhqd4r30b5TzfDgcV+SZgpPqBFGDVeXjPJh6LGTutiL9zKPE4LS8irgyuDP9EBndhbVEFw7zPpWFIXo6Ft5DhbP8BTNh5m0LpsQyEK71Pcet0ScqOBmGSCDFy9yW4ORKLhJ7lbRDrLqHVY/xVJM1fxx1sLfNyU2JJSTHHAQ7nFJyYNTrmurTYrUNm5zLx2VHc6Wmxqf4PtYRQ4DjtjFq69xcCKWqsc/mUhMyIlNMccCRx/zIU1XNAWdwI2z0mi8HNksVFcoq3qapymhkn7NeRx/7XDK6x40XFfnpfjYkFplDPJPbbXL+WlVb3ZlaxDvs3RQfvnbYrb6bpRXdviQOGELxVmZ4kcOjN3CkTrJub4qy19Rm9XI7n/yS3DB6To5AGfZXurbUGZsrOpHmkJCxKfK3IJUIkSqNkIn30/NL+G5lFrFMQJHfHl/BR5d+4waPuOJlY5tILQ7jpGWOKLccczKjH+0OKt8kOHF6L8H6a78K+X7WrzbVzbBFqFwvJ5y3Xcc6z+3WTDAkllaQt5A0K5RBL0R7PBBk8JcYrhZknhsdBPJ6dJDzqoD1UXYhjXoyeBbvQSzXOFhMu1xqbtTdgBmJGbK058f1Cdxfn1Sqic9HtKuFN/6fhJuvQRHOe8mC2NLa/KuX8C+RZ79vJjt5dodOKfbGic3wloiBPwF7d0YFgMaaQwAAAABJRU5ErkJggg==">
+       &nbsp; <b>Add ESRI Data </b>-&nbsp;Add&nbsp;AGOL data to map.<font face="Arial"><b>&nbsp;</b></font></p>
+       <p>Add ESRI ArcGIS Online data (<i>over 100k layers</i>) to the map.  Layers may also be added using a web service URL or dragging a file (<i>shapefile, csv - matched with generic ESRI geocoder, gpx, geojson</i>) onto the panel tab.  </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/AddESRI.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-add-data.htm#ESRI_SECTION1_32BCF64BC65245ADAE6D7EEE03A133B6" target="_blank">More Details</a>  </p>
+
+      <p id="AddCSV">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAToSURBVEhLzVdbT1xVGF1nLjD3O8O93GmhhSK12oTQNNrERB5M+2D0SV/8Cb77Y/wJPvTBh6pJH4piY6AtFSpQLsPAMHfO3Mf17ZmhIudgY1PrSgjMmX3O2t9a6/v2Qfv8q6/reAuwNH//5/g/Ep92oM1axmAoDpul0rzyejAk9rXnMd6xh4g7DaetiIgrjYXJJXzx7n1+LjVXvR7OEtfrCLuy+HTmAb587wcsXF7CZ7MP8PHEr3DYyyjXbM2FDWhUJupJIezO8NOr5/Qssabh6NiLg5wfV7s38cnln3Fj4He47EXYtBrs1tNSi/TX+9cx070Bq6XWvPrPMJS6ULFjOxVCtWbhw+qwaLIfDUFXHh+OL6PTk+SqRnXVuhVrh13YSEbVJbHJZS8o5c6Ddera3DfNv0/gdxxjbmgVA8FDRdqCVDcQTCDiySKR9yJ57CaXhQp5kNQ9mIhu4+70IoYiccRzPuRKzuadZ3GmYrtWwdzwKmZ6N0h6Wjq90o6tdAS76SD0sl3ZIhByWXtz9CmuX1jHjQtruBjdU9+Z4Qxx0J3DxY5dSh3Gcqyf1biUakL0/bMrWNoawuKLEexlQs07GhBbtpJhhs+KfKmdinia3xjDYGTW2bMVemdRiZ0ffoK7Uw+RKrjpZSdujTzG41gfvv1lHrFsUN3hsJdQqthYdR2D4X0Uym1q46KEGQw81lRg6iSu8SdJ/wLOPHYYtnurM/A5dEx27aDfn8Ah02/jJhcmHqlK47kAEsc+bsKuNl+uWk/s+DsMwyVw23V0etMqIDvpEGWMsMUCWE90IujUMd2ziZ5AEtmCCyndjV1Knys5YKXX79PjwfABttNhbp7kBjDUQqNkvf4kblLmqCfNh4axmxXpNJXee6tXsbLfj8HgAT4YW0axalMJF7VkTYGfVfjO6SjjiuUGKiRexfN+9nVb47qChlzRoWQOM4hjkZjaZIoh3M8GVIXyW8JXrpHcBMbE9EUvNUlJftqnuhqd4r30b5TzfDgcV+SZgpPqBFGDVeXjPJh6LGTutiL9zKPE4LS8irgyuDP9EBndhbVEFw7zPpWFIXo6Ft5DhbP8BTNh5m0LpsQyEK71Pcet0ScqOBmGSCDFy9yW4ORKLhJ7lbRDrLqHVY/xVJM1fxx1sLfNyU2JJSTHHAQ7nFJyYNTrmurTYrUNm5zLx2VHc6Wmxqf4PtYRQ4DjtjFq69xcCKWqsc/mUhMyIlNMccCRx/zIU1XNAWdwI2z0mi8HNksVFcoq3qapymhkn7NeRx/7XDK6x40XFfnpfjYkFplDPJPbbXL+WlVb3ZlaxDvs3RQfvnbYrb6bpRXdviQOGELxVmZ4kcOjN3CkTrJub4qy19Rm9XI7n/yS3DB6To5AGfZXurbUGZsrOpHmkJCxKfK3IJUIkSqNkIn30/NL+G5lFrFMQJHfHl/BR5d+4waPuOJlY5tILQ7jpGWOKLccczKjH+0OKt8kOHF6L8H6a78K+X7WrzbVzbBFqFwvJ5y3Xcc6z+3WTDAkllaQt5A0K5RBL0R7PBBk8JcYrhZknhsdBPJ6dJDzqoD1UXYhjXoyeBbvQSzXOFhMu1xqbtTdgBmJGbK058f1Cdxfn1Sqic9HtKuFN/6fhJuvQRHOe8mC2NLa/KuX8C+RZ79vJjt5dodOKfbGic3wloiBPwF7d0YFgMaaQwAAAABJRU5ErkJggg==">
+      &nbsp; <b>Add CSV File&nbsp;</b>-&nbsp;Add a CSV file to map.</p></font>
+      <p>Drag and drop a CSV file (<i>comma separated values, create using 'Save as ...' in Excel</i>) onto panel to automatically map points. File must have a field named <b>Address</b> (<i>no city, state, zip values</i>) OR fields named <b>Latitude</b> and <b>Longitude</b>.  Field names must contain the actual upper and lower case shown in the examples. Address will be matched with Tacoma address points. Close the 'Identify Results' panel and click the resulting map dots to view the spreadsheet values. If errors occur on any row of the spreadsheet, details are provided on the panel.</p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/AddCSV.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+      <p id="Measure">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><img id="img_1449863890283" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARRSURBVEhL7ZTrUxNnFMb7d7FBAYEIRCEGoQkhJGvu180N0MaC6MBYBAJUR5CigNSiMAhabsplIleRShBQRJSKKZiLlw90KLSkT7I2ECDEdsZvnTmzs/POeX979jnPOV9xJeYvFP+jd8TnoqWUTpejVhm1Up2OVOn5cuOOhN0RHs2TGsvKRTMPDzufx/z6JG5mLGF84MhAZ0pbc2pjA+9ylaDEKvr2rExj0nAlpu0Xw6JNlZXC9y+jvB7C6/YHXv6JTWfE6tKB/i72xYtZDXW84lISdQTuhkGbLcql6bgtrisoNt4y7ramirUUMkmNvv4qLzdPGbi7HzpDamxrTtt0EWtvIhen4j6+itpYYXidfi6e7oiJQZaM0gbycyyKqsuZAVn2Q6Nvr6djve+Il/b4U/nykjLy9ZPYQMkfFw8WfSemM8Uaii8zkmqq5gof7/ThfuiKSuGagwEdeu6whUp9tkWBTvpkQckeYrj3KA79TSbto0nQOktpuHRJoDGjn77r+6Gbf0rfdEVAhGu1GXy5wVouWnNE0iWvLzOqq/DvZku+bPnpIe97wrMQlXtaXvG90JCroq+HRGcqDAPdKahudSmyuITEyfU6Hr7kV5l4txB1Mk/Bk5hab/ma4XVF/OFgwCflFULjqXBoUkNN2Fh/uYi5R0wILZAbGuu5fzoZvqo9BETH+Ei01OzDw7REG8tETTW/zCrSnwyHRjfsw4nu+ei25uNTIwm2npTWm2mPB5No9OwYE/OpNat/gxp+U/7uiETJpVaRxqSmCaHRWmp6LGH5WYytJxk+834g+jrYTY1f+0AeYsKWRKooWAgJNNqzEG0pkBWXnhBrdTQhJFqi1WGmUdRAVwqmDriuds4NoP1zONJ3VKDUKwxa+J0+Gbex8BPoCqaBJoREYw1NjyY4Zg/1dbJpdHf7sVs30gPoLJVBoDB0t3M23RGeF9HwuNqsKSiUBgh7o+FWjBkkhrEeQBAYw0Pc//lYS1MaLchYP4tU65GJSq/Xc4uKxTypqaBQAokCkBBoiUmio6aGE1bmYjpucz68OghvoEBf1X70aP8RocqHDsQJNVV8gcRABk7CtHF9hfHgXjIsdaU6s6GO+3yCSaMxipi9bfkmTIrPduKtvRoSLVLpa3/gt7ccv3eXTeWosCJQ8vrbT74e8k/5Vr7YJMCXpKH3NVqHzuAFeeeKxC1N6dgMmLH8c1JdthreqqrKvPlj+sLjeN8CCRZkdwShJwcTr9Zm5J2VwctQGQsPT+d8jGs++s1MrH0kEb5WmzSdtzmTQ0nb1+meEYSe/4UJ3PgAC56bm2A+e8R0L0T3drBhcEwNhK6tyeho4yzaY19Mxn+TL9t+d3cEoU+fkdVd499pScVigvMwL6uOA0O9ydhnrU1p8Bl6W3heXGolsy1KWrp9Yu82okWYNOyw8xfEZVZSrv/Ug38Ve6N3BDqGidhxGDY+C/3f4ouhJea/AUfj+m6psEgNAAAAAElFTkSuQmCC">
+       &nbsp; <font face="Arial"><b>Measure</b><i> - </i>Calculate length and area.</font></p>
+       <p>Add lines and polygons to map with length and area labels.  Options include labels for measurement totals and bearing. </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Measure.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="widgets/Measure/help/index.html" target="_blank">More Details</a>  </p>
+
+      <p id='StreetView'>&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><i><img id="img_1449863356068" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL/SURBVEhL3ZX7T5JhFMf7uwQUiaugRs28myJXlbuMltVmNytn12X1Q5abXVy0la2yvCZiooB3QlFQFAWxma7Q8FLnVYf2vPTq0H6o7TvG9p7zec/zfc9zzqF0ke4v6f9GnyqV2ozcxYk4exen7KowQ1yMBOC1J7RcJ29vSF6ZIa/Pxqz6SX2mBIWuCInBa0/o8mv582PUnwESpjlSwBl/7pIYicFrT2iVvqirNXHNj6Gh8EEzR6mXIzF4EaOLRQpVoUYhVCjLKwTDVtbieJy7j1F554RUrSzUyuEpLmVbROjcAnXt4zRbG7emOr3+9VGHhT39mea0MZve8F8ZjoPjhmep2TINkhUWEVogVxsbkoOTlO6PPEsbb95FXQ+Q4LevI2HUxgzNUDpbEuH1SFZYu6O/T8aOWNmTg/ReE9czQO8xcaeG6F/dcaHpA0Fb2Ete8qyT1t/BAU/W/DELbmrIe0BVL3sp0BshHxk8gT8LLuoBVb2B3uprDE3Cqt4nuq0xadOQ39FbhnxqTtpX1dAhUPUSHj1DNrdGW3Veofp93TGv/TBcv2UveSf6yxgVrnvTW36OLCp0plirPyO7eEX40pCyPL2j6kCMvZtz41YePCUYgUTosB5WZf7YgYYJBZdIpCS65aDo0WKVEglDtDsajlz9CNDbXgPaauTJtNGiMyVamKUV1wXAba0/gng92suED3D/XvbZ85J8eWRnIqNlGgXMPKeNBRsL+trVw4SLDo0Rlt8RH5yKhQnlc9BMjUkXykRZEi0CiYDOlmpqn6QBCw4ONQanKNB8rl4GTCiQZ0MjVlbQs3GOOewQIxaW/rQM4URAZ0k1VQ+yYLZBdZAJwwgG08QAYxMKmhhk+IZpqz6MC1rxkWEjq0+i2zKyIYIi9c3bucYPyeP9jHk3FYwGECywLflIsIK/eWLhBf2dCc+fpupKCmAlIZA/fkYIFSpUJaWSyrs5dS9SzC2JQLGb2UNmdk87r/kdv6Y643J5Pix7MBCXi4kAvV/9i2iR7hehNPURJIaFYQAAAABJRU5ErkJggg=="></i>
+       &nbsp; <b>Street View </b><i>-</i><b> </b>See Google&reg; Street View.</font></p>
+       <p>See Google Street View images for map location.  Activate the tool, select from three Street View options, and then click the map. Google Street View will open in a new window, so be sure popup blocker allows site.</p>
+       <p> 
+          IE browsers may experience a blank screen. To Fix:<br>
+          <ol>
+           <li>Open up Internet Explorer</li>
+           <li>Press the Alt key on keyboard (menu bar appears)</li>
+           <li>Click on the Tools menu tab</li>
+           <li>Select the <i>"Compatibility View settings"</i> option</li>
+           <li>Uncheck the <i>"Display intranet sites in Compatibility View"</i> option</li>
+          </ol>
+          <br>If a Chrome browser does not load the Google Earth option, go to advanced settings and turn on `Use hardware acceleration when available'. 
+       </p> 
+        <p><b>Option 1</b> - Marker at location:</p> 
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/StreetView.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+        <p><br><b>Option 2</b> - Historic images (Chrome browser only):</p> 
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/StreetView_Opt2.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+        <p><br><b>Option 3</b> - Google Earth (Chrome browser only):</p> 
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/StreetView_Opt3.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      
+      <p id='Draw'>&nbsp;</p>
+      <hr color="#acb1db">
+      <p><img id="img_1466201308067" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMNSURBVEhL5ZTrUxJhFMb7M0MlReQioJgo93CFJVgRWRBIWMhmrMkZU8rUKDNvpHjL8gLRZZqpmcaxsn+hB15aYUEUpz40zTxfYN/3t+c8+5xzRSTr/Uv6D9HawdvBrU/x3E+d/26D0ih4emm03hRPjLz+Ci5Rt3+sSWUuPXNJtFTvcs2sc9kfPJrQS2uvG92oMispVqKjW3W0eybNZb8L6PzJ+tBijdXETfnX3nUOxPCztcfpmt2IHh6X0vnDdaDFakue+zJnjieau/olPc5mbV+bwQ06l/l2eTTqNUYn2dRby+ijlusOjWtkaOnAPrEoNbil+gK94AybyvFXLoRu1toMkQe+5YwxOiXppjvcUXYlA1Bk76gneF+stsIZ+O5d2JNbvfyt89HijhvgsitZy+g0uGo67F3cJ70zyR0NHVbYfErKLzMNtBkZkVzPXzwHDR/AHVo+hA8SnaPTHUVphIvetZ6Yqj/AzG06JpZwUnC3Fvpahw3+5n3gJgtcDv4SLv7s8sRVjtDA0x0mud1OBUrrJToTjTz8/m7T4GqctwYX3hTrXc0WuEH37Aa4ajokUhgE16HqaMwFckbyAH/LfFjNYnWonWHXbBpWwJDK7UFUBQ2uOZbAXKBq5Ax5QPuEC0PARQfMk20Ert0+3KCozoUq0AoDuMPpj5gLcNEsn4divY6QayYNLl7QeEa9REJ0o9JEjT83xaYwb2QuitxUDv4SH8CF0bW5UEXVcn1r701MMCjAFbkrmXzOHCEEGf7W9oGXEE0/TEnzaMq3miXcwNp7cDEU+TzMbWJkzq2XqAwtM3uwxrrZsZau/sD6B3BheifDkblAzmrkoVJlaGNkIv72xLd8CFvwGpiLla+wsZ5nu575XcxFQ7X8nqUyNEpDpZH9I9u9JBYCGm/RUtT4PLgqe7DqXNRQGZorLPVY7iR6cBze+cwkt7B0YL3S5hPJ6+NCp2hlH0u+G1H41RdjZBK2XG3DU+F+uIhO0aZYwvtiz3rnscoewgpuUlvyCatYOhdXmSF/Vv8iWtb7C9Hw8G3vjrCJAAAAAElFTkSuQmCC">
+       &nbsp; <font face="Arial"><b>Draw</b><i> - </i>Add and save markups.</font></p>
+       <p>Add, edit, save, import, export, and share map markups. </p>
+       <p>Exported markups (json file) can be converted to data (feature class) using the ArcTool <b>JSON To Features (Conversion)</b>. The resulting feature class will have fields, geometry type, and spatial reference as defined in the JSON.</p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Draw.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+      <p id='Print'>&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img id="img_1450123028783" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHnSURBVEhL3ZbZTsJAGEZ9TaNeaGLEXdEG1IKiCIIsKkZFxAQCbihuxAUrhrg+lofUTOtYsS6YaPJdtNPzHZq/7YSm5k6lQflP6gF34Fy71apPHwYMWKrrsVYPjc9dVO5S2f3YSia+mrUMlwDAgKW6nnrqEc+8tC4F4Evqa9RhaV0KANjX1Dbu+rPq4YmQ/YEAS+t6Xql7Ff96tpDZOd4unpVv7u2owYCpUKRuvmqoe5QZnrh4q8o3D3ZmDSYq1JGIq4b64PRKqz4Kjo5rKtrW7a4TALOaOhIhNNQm4oU7LGl7Rxd1AvCm9SSEddS2slM838wfmj9dIfyWuljSGG6rw728sSUWhfBbaibbPdoYNc+DgaRzxZ8fiGWE8LfU+UJpNpb0R9YWkzk+s0Qqz7E/mrROZA0ADJhjitTfVQfiKf148DM7H7B+GoynbKjHgvZ3PmD9lPq76lzh1BNIjM8shJbSlxW2p3BHv+qejrMihcX2PhUADJgVbzBB3Vqd3T3hFtgkCRNkc3CqYWUyUipXebeksMgtD6shMGAq/AZ1JEJoqLkLUFyj3vlAbL22Eauhli6Xw+lzjEzLcfq4BAAGTIUiQ0cihIbanNqsK3d8Y/qbYJ1oEgBMzFqKtbqBfxZ+JH9R3ak8A4x5gwczlzrIAAAAAElFTkSuQmCC">
+       &nbsp; <b>Print </b>-&nbsp;Print current map.</font></p>
+       <p>Create a map to print or save. Change title, layout size, and format type.  Use the 'Advanced' button for scale, metadata, map only size, and print quality options.  If basemap is not displaying in resulting map, choose "Preserve map extent" under advanced options and print again.  </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Print.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-print.htm#ESRI_SECTION1_BD72556E88414595A9B15D23A4DA2ECE" target="_blank">More Details</a>  </p>
+       
+      <p id='Favorites'>&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img id="img_1467155689466" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASeSURBVEhLvVb7U1tFGPXPLEkgPJLdu/exm713LxAeoaQQngFCCKh90KJVKu1YfMzUcVqrYx2ro8VHtcpQp/RlS1tLobW2v3g2CSEhvPqDzpzJ3Ln327Pf63xfXquJ+v8R/mdqqgKGCppFBJgKUHWAqHIbvKm2qSGbBkAlNfVDXEWSkr8h1Dvcf4+rd7k4LEivrJUeuGAToH6tUNFD7jY2MVywybZJHWSqoU0f6DxvD/zGRv80Mg/p2D068DtLXLRi0zzSLcO+15RwxZsiccEeuMZG7xqZB3T0njGwyLo+t8QR0djuBk2vkpr4DXEX96eX2dTLaPYJHbtvjNwxQD3+2Jj8m6TvGB2f2O6MiH/oDP/BJp+T7Gre5i5sjOyqMfWCjNw0/DmnqVMW4itSh2zlvc1HbxtT/5CxFZr82kSksWNCzfKDX1ojt43cMzKxTrOPaXaN5p4TMHZ/BRtHTnN/lndfsuAH7kMcLaedsPIORFWR2hiUyctW7ilJ4+ZZ3tTp1kmFnOK3scMVR3nqRza+SidfkIk1glTIE7wxIYs2MW0jT4ih60ZujaYWTGs8hqpqatwAH9O3WGaFdpy36ltQsXyW8kB0dZ4bmxY935vDNwzcgVDCzW4h6g0bH562n7NRIbjfetYJWgWviUpctLPrdGjJ4IdF6cAmiGpo9ZyccGc4f100JSTebLWJ+s6UQP1Rp4OXrFrhaeoA85LfmAi27yqj/bLcuoQA0f2LksAd3cJVBgD6r/eKmXtGER8C1dRBUF82UcD+Xxgd3J56PyApmVpgKFjPd6DOe10TVYnP7IknFHUQR3i59SsBuUJCwIOmgvQK1D50lb4BjZDOCzbSVC6q/QD2IQdldNDjI7eMljNOwCp67SPFaD70LHRlZ2MhZ/ts7gTUgKVjKBV01HuFWZkYBlGRuk566D9IY/wvhGOTXhflKp3cHUHLjybdjk/tsRV0Ho3P2xgYaKEiNZ7geNcXFvSWeaAbM9KNabA3O2wiXW7zHGSh3YIsrRFRcGuDOop55qEx+3/V8wFTwj+lNVmunWrgKxz0TnKkEZMAKsUIDHvaZXzdpAagMfctjvmABoKdd9Kpb3XLDbYAg1AeF31XTYyXsfvUn3VwU6nrK6gRXUO7VLMOumX8EUUEKEBDe3FIbkF93MNES/1gZh4a6Zusdd6JJGR5hSqoMVrB3tgum884Q4sMs7j/Gms+7WD6YI+UzDA9GttcZCz1M4OzUEP8AwcLBH1SvmgqqQGiT6KG8XlncJFhwGIV+HM8knSDOAle3N3pYkIhJnwFb9vH6Cjtb2C3BbYBnI/2yJb3Hagr84gOLrGWsw50HPZdeKdOcdyHHYT38Y9s2leRhxK2pwa0dwnkXVd/4ikdXmZt57BlOLbM0BLLrZPB6/n7emRoBwXsSK1BFTokdpyjFzHPsAogCjQvntPLBmqoN2FZDbZgV+q87/VxV3fYT1rEUy+xZSiy5IK3TWpNVea3HHtQ66oyFW72oIVD32LLsN4FU85wRLM7L7AXdQFUYT/ZWQFBQbHgrf5DU439UQNoeUuFuKdbcLvtVY19U78qov6/5avNrsRacIgAAAAASUVORK5CYII=">
+       &nbsp; <b>Favorites</b> - Save current map settings.</font></p>
+       <p>Save extent and layer visibility of current map session. Retrieve and share previously saved sessions to start map with the same settings. Session files are stored in the browser cache by default. Store favorites at a network location to prevent accidental deletion. The current basemap is not saved in the favorite, only the layers in the Layer List.</p>
+       <p>NOTE: Don't not create favorites from existing favorites.  If a favorite is currently in use, refresh browser with Ctrl F5, and then compose the new favorite.</p>
+       <p>Workflow for sharing favorites: 
+        <ol><li>Create favorites with Chrome or FireFox, then select the `Save to File' option to create a json text file and save to a location outside the browser cache folder.</li>  
+        <li>Using any browser, including IE and Edge,  select the `Load to file' option to use the saved json text file.</li>
+       </ol></p>  
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Favorites.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       
+      <p id='Search'>&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img id="img_1467829434645" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAABKNJREFUSEu1letTGlcYh/vnkUltzTQbarRgVJa7N0TwigpGQxUN0TjYZOoVjVVsExRRSxWDQQ1eIiii6FgQtIiAsMi64nZRQFzSjNWWeT4xv3327HnPed+vCAD4P5GsphEARgqJA4BlmbkCsLCGUSxkYnCraQWVOSweOSf3YTr9awC8h38QT7KaRQC4JL6stH1Mrp6fWjAtm7dWzZZV4+r8h1n18JvuZhGPXfgIAO/jH8SToCYyCBnFafkSTsNAq0KvMuya7UeHx8EQcgojcCgE+T0uh9Vk0o2/7X4tEQpZVDbx8ZUomQR1Wj4BbOLINModaPcYQaO/MIqeImj4FEXPo/+gocMNq17xqobPzroSJRNXFz2iSio7tIqPNszrC3j9ru3Nec3Yr0NSWVezrLulU9GpWtKYnHbozBfw+BzrxqmhTkl9NgB+l6BLJKYm1T0RDA8t7Vu9MIpAbtuaUaccbBOXc4ouA9+Qi0gVHSK5btTktBxC0AkEuzcMI731FDAr/UqXSExd2k3vX1/YC/ghD+re0A13Pa8sZdLzgB/ol4F73zNSyFxiniSnVtH7ftviPQucHDtW1NoWsCTvSpdIVJ0pHWmYO9o5hoMui2ext7NRAJLBVOK1aITHHEJWLbdrtn894IROA/ZFx2R9vSD6ZTii6tq+ac3euQdGPJt/rPWA1dxrITyiIeao3eQOIcd2dGdS2vgMH7gAU3MJwI/S4eUlD+JHvHt6lYYL8r5YegKtk9ps/GAL+E5c6KFhUNrMBMAHuMyFWkAAetqVFksQDob3dyZ+UwBgQVLuOjIKb06z5fsL8aD+9d9bW6oBkIjP3FENu1GvceyFtBwAAXzmsxtSdNMN8UIHYYe+r0kCAmAqLnPHMsLeP+ENVZO4Dh+4IKp+knj4DDc9fH6bwa6uq6vg4GMXRNWEsuQrU8Kk4a5METGvMVs01DsTuTJQyO/4pJ5qAflfvjIEcvJFfzf4EnfRfxbJ348YnRYXFAwFw16rQdVfRQHJGVe6RGLqi/YkwNqTId6erJY5rD0NPpd1Nsm6XkTa06LG6LRh7QlGEBg699vMs5OvhOLqimp6IY+YwUhJ8GLE1f+mqYZgKBgMh+HggW1/bkqrftP+uplNLcCdvwR1fBQ0/vLyn0bB1urajHKgb7itd1xl2l9zeoMHDodtc3VFN97f3iAox+zxtSeoo8QG2E+RATb90bRithojA8y4oJ8dV8i7G8rZTD7AlpSNmFW7JxefEkaCbp91RjPQzmfmk0iMy8mZrI6NXWpk7FI5NcxiESsydmvohZUUVjE5m/UgnXmfLgTkBtmaF9uoMHp+Hj7F7A6z7sNQ09MS3uXkTFbfjEweQdhf+W5l+eDEFTzD7NgrQj770daUSt72lM/D1n5bNcDA9o0ilEvnXJg9VuRIzY+2pvWK5hJWwa3V2L6xHtJqQVFf69iq1hZwh+Jr396dV/ZzSm+tviRSc1A8KJncMOwdY7PhHD2DA7a9xQllUfkd1ZGap2ZVZVd1SSY2tDbPKep3fhrTdtTxabl3VF/C/jZLQBHLn8lH306oe2QSMT8vjUT7T9SfAwD/BlBTXOusJ93+AAAAAElFTkSuQmCC">
+       &nbsp; <b>Search</b> - Find address, parcel,&nbsp;or place name.  </font></p>
+       <p>Search for a location by address, intersection, parcel number, or place name.  Use the <b>&</b> symbol to separate street names on an intersection search (ie <i>9th & Market</i>). The same search term can be added to the URL with the <i>'?find'</i> prefix to create automatic links to a location (ie <i>https://wspdsmap.cityoftacoma.org/website/DART/staff/TacomaPermitsMap.htm?find=1515 Commerce St</i>).</p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Search.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-search.htm#ESRI_SECTION1_A5706BF472D643F28B19B51A5CC6BDA9" target="_blank">More Details</a>  </p>
+      
+      <p id="Default">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVEhL3ZbNaoQwFIXn/R+j6M69K8EfVIRAi4/QlYhCxT5AT5LTksw4MWHiph8MenNzPjWZRW5CiDzP36ICIbTgVlUVx6ICrbRnWcaBqEAr7WmaciAq0Eo7qwsIs78rWHgQYO/7/luBGw6d4Wv/U2s8H+Blb9uWVgMMolXX9TAMXdfpmXec2w/VGqinacLNvu+cbXNib5pGi9wsy8KAjcteliXTZwTb/dUgzF4UBXN+bNuGCMMGB3bHNrrR/yKTA/uHAq/DkAeYrFNU/PJ03bGUjHoQvKv/yI7y0+Cxy5iNr/1ux1CyoXjVPo4jGwqUbCiC7eu6Mqpw2zGZDZun9nmevwweV4YNBSazYSPtSZKwigq00n7tiePa0xJ+F5709AWPwre8uAeIQ6LfWkP7JQjxAw/p6TFTOR+fAAAAAElFTkSuQmCC">
+       &nbsp; <b>Default extent </b>-&nbsp;Zoom map to all of Tacoma.</font></p>
+       <p>Use this button to return the map to all of Tacoma.</p> 
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Default.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-home-button.htm#ESRI_SECTION1_28CC95EA6BEA4D0D835FCDB99EA8D94B" target="_blank">More Details</a>  </p>
+      
+      <p id="Find">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAfCAIAAAAJNFjbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZbLbsIwEEX7/58RYAHKJgoPdQEI2ALiF6BUaiWWSEiAaA+eC6XBIWnB4qw845m5tpNM/DIOzI/AYDCI47hWq0V3QDpFKKWiZ4FOp6OQB0FBq3wUQFDuh2L7OAqwKfkeCmUlcOe550FZCciRT7vdnkwm8/n8w8EAE6em8ykWaDablPtybLfbzIApAhTqo0BgOBzudjsrxLjRaLw7GGCaMAGMlXDFLQHSyN9sNv1+X64osiOSEUVMEUDYaDSS6ze5Ammacg7r9TpJErkcrw4ZDgIII5gUuS7wC1QqleVyybq63a5cNyGM4MViIfsCvwCvx+Fw8CbkQTAp1++VX2A2m7GiXq8nuwQEk0Ki7BN+Ac6HM61Wq7JLQDApJMo+4RdYrVb7/f7NkXmk1xBgkaSQKO+JJwkEP6LgDzn4a8qHRsNhRaE+NKBHcqahWoVB/2Jd9LLLfWSaHVP/bHYGaed2zQ+2Xq9bu2aAeW7XedWhQABarZY1PuAcMgOmCFCoj2IBgzvIdDrlMX46GGCWuelI4E/fVHkoK4Hg15bgFy8Ie3U0EGRTdz4P0iliaz8yHn8DHBsMUH9PcpIAAAAASUVORK5CYII=">
+       &nbsp; <b>Find my location </b>-&nbsp;Zoom&nbsp;map to current location.</font></p>
+       <p>Map will zoom to your current location using the browser's geolocation feature.  The map location will be fairly accurate on mobile devices, but only a gross estimate on most desktop devices.  However, desktop devices can be made highly accurate in the Microsoft Edge browser by adjusting your Location within Windows 10 Settings. </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/Find.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-my-location.htm#ESRI_SECTION1_D21DB0D3AA454E2F9E07BD4F121AD128" target="_blank">More Details</a>  </p>
+      
+      <p id="GetCoordinates">&nbsp;</p>
+      <hr color="#acb1db">
+       <p><font face="Arial"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHbSURBVDhPpVXLTsJQED23VQvUF6Iu9AtMNFGM0YULMRFdGL/Ljf6LcSMuRBcuJS40+gMaA8EHyKMhtt4zFgUEiniSSc7MtKfTmc6tKjw9eugT5dIbQqEITHMQFFHKgPGV6g9KKZ/94LvC/YNDCfwFtZqDAXMAyjDFX1ld+1+FhhZyXReKL6w8eJ7Xu+Dm9o5YEAIFrVAYE1PTvgfhjNXBfjVOtavg6HgU47GYnuY70qcpMXLGmPs9ki6CrCJs28g+PqBaLkt/aOSMMReKRHR5uj6aBofeUdAeGcHby7OIxCYnsb6RECNnjDl7dEyuDXxlNn8xHodTqYg/N7+AIcsSIyeYW4ovI7m7J34dgUNpRWM1jVB+R9sKnqVOcJ3JwAp/TfPu9gaO48CpVnGvOcHcdeYKqeMjGLp5usMS71hhqVjEWHRC1iufy+HyPI3Li3PhjDH3XizItSLll95R0KlWUCmVMD0zK9NUhiFGzhhz9R43omsPC68veM3nEbGHkdhKipEzxtyfvsM6WOlzLut7EM5YE/RnFNjDVnBQtCa0Ob56FuyGnobSL1Qh+6Q3yYX34YLnpIJ/xpn6Wa7/2E5QLsp6ty29Qaapb/b0L4B7KTndj3ZHehCa7wE+AfM+xbQilUk8AAAAAElFTkSuQmCC">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Get coordinates&nbsp;</b>-&nbsp;Determine latitude&nbsp;&amp; longitude.</font></p>
+       <p>Located on lower left side of map.  Shows the current map coordinates of the mouse location.  Click left side target icon and then click on map to capture coordinates for copying elsewhere (ie spreadsheet). </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/GetCoordinates.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-coordinates.htm#ESRI_SECTION1_AE7FCBE170C9407DA75226AD8BBF0550" target="_blank">More Details</a>  </p>
+      
+      <p id="OpenAttributeTable">&nbsp;</p>
+      <hr color="#acb1db">
+      <p><font face="Arial">&nbsp;<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADGSURBVDhP3ZIhDoNAEEX/FgkOh+UCaJAkGCw3gDtxCQgOQYJFc4Bdi8MjILR/uyVt2hpc+8xkMv/nz2xW7Ddwkoupp/g3s5QSZVnq+o231962DX3fYxgGcCSEQBiGiOMYlmUZ1Z0X8zzPqKoK0zTB930kSYKu66CUgud5yLIMrusa9ZN5HEe0bYt1XXUK05jKMbfgNkxO0xRBEGjzcXPTNLBtG3meI4oibSSs7IuigOM4WnfAZFLX9b4si+k+wzl1D37yewJXx6qJuT+EwlYAAAAASUVORK5CYII=">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Open Attribute Table&nbsp;</b>-&nbsp;View map layer tables.</font></p>
+       <p>Located at bottom center of map. Attribute table may also be opened from Layer List data mini-menu.  Displays a tabular view of the layers' attributes. Includes options for filtering and exporting selected records. </p>
+        <video class="one" width="500px" controls preload="none">
+          <source src="Help_Videos/OpenAttributeTable.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+       <p><a href="http://doc.arcgis.com/en/web-appbuilder/create-apps/widget-attribute-table.htm#ESRI_SECTION1_A7F800353F534C2686379851A251A10D" target="_blank">More Details</a>  </p>
+
+      <p id="MAPNAVIGATION">&nbsp;</p>
+      <hr color="#acb1db">
+      <p align="left"><font face="Arial"><b>MAP NAVIGATION:</b></font></p><ul><li><div align="left"><i>CENTER &amp; ZOOM IN </i>- Double Click</div></li><li><div align="left"><i>PAN</i> - Drag the mouse with button pressed</div></li><li><div align="left"><i>RECENTER</i> - Shift + Click</div></li><li><div align="left"><i>ZOOM IN </i>- Mouse scroll forward</div></li><li><div align="left"><i>ZOOM IN </i>(rubber band) - Shift + Drag the mouse</div></li><li><div align="left"><i>ZOOM OUT </i>- Mouse scroll backward</div></li><li><div align="left"><i>ZOOM OUT </i>(rubber band) - Shift + Ctrl + Drag</div></li></ul></font>
+
+      <p id="QUESTIONS">&nbsp;</p>
+      <hr color="#acb1db">
+      <font face="Arial"><p align="left"><font face="Arial"><b>QUESTIONS &amp; COMMENTS:</b></font>&nbsp;</p>
+      <p><font face="Arial">For suggestions, questions, or comments related to the information provided on this map, please contact Nancy Grabinski-Young, Community &amp; Economic Development, at&nbsp;<a href="mailto:ngrabins@cityoftacoma.org" target="_self">ngrabins@cityoftacoma.org</a>&nbsp;or 253-591-5394.</font></p><p><font face="Arial">&nbsp;<br>For technical difficulties, please contact Mike Murnane, Community &amp; Economic Development, at&nbsp;</font><a href="mailto:mmurnane@cityoftacoma.org?subject=Tacoma DART Map" target="_self">mmurnane@cityoftacoma.org</a><font face="Arial"></font>&nbsp;or 253-591-5293.&nbsp;&nbsp;&nbsp;</p><p align="left"></p></font><p align="left"></p><p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+      
+       <hr color="#acb1db">
+      <p style="height:1200px;">&nbsp;</p>   <!--Add enough space some id links will be able to scroll section to top of page-->
+
+</BODY>
+</HTML>
